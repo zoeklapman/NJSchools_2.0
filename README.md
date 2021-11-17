@@ -9,3 +9,7 @@ This is my first iOS App from my CSSE337 Enterprise Mobile Apps class for colleg
 ## Description
 
 I took my first iOS app and updated it so there is a map feature in another tab after implementing a UITabBarController. The list of schools in New Jersey are marked on a map using UIMapKit. Clicking on a school provides the option to segue to the school’s detail page to update the school’s ranking. If the user sets the school ranking to 5 stars, the pin image for the school will change from a building to a star.
+
+![NJSchools2.0_List](/Images/NJSchools2.0_List.png)
+![NJSchools2.0_Map](/Images/NJSchools2.0_Map.png)
+![NJSchools2.0_Detail](/Images/NJSchools2.0_Detail.png)
