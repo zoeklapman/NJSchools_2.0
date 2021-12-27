@@ -9,13 +9,21 @@
 /* Begin PBXBuildFile section */
 		F45096D327174ECC0099B839 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45096D227174ECC0099B839 /* AppDelegate.swift */; };
 		F45096D527174ECC0099B839 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45096D427174ECC0099B839 /* SceneDelegate.swift */; };
-		F45096D727174ECC0099B839 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45096D627174ECC0099B839 /* ViewController.swift */; };
 		F45096DA27174ECC0099B839 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F45096D827174ECC0099B839 /* Main.storyboard */; };
 		F45096DC27174ECD0099B839 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F45096DB27174ECD0099B839 /* Assets.xcassets */; };
 		F45096DF27174ECD0099B839 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F45096DD27174ECD0099B839 /* LaunchScreen.storyboard */; };
 		F45096EA27174ECE0099B839 /* NJSchoolsMapFeatureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45096E927174ECE0099B839 /* NJSchoolsMapFeatureTests.swift */; };
 		F45096F427174ECE0099B839 /* NJSchoolsMapFeatureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45096F327174ECE0099B839 /* NJSchoolsMapFeatureUITests.swift */; };
 		F45096F627174ECE0099B839 /* NJSchoolsMapFeatureUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45096F527174ECE0099B839 /* NJSchoolsMapFeatureUITestsLaunchTests.swift */; };
+		F450970827174F6C0099B839 /* NJSchools.json in Resources */ = {isa = PBXBuildFile; fileRef = F450970327174F6C0099B839 /* NJSchools.json */; };
+		F450970927174F6C0099B839 /* SchoolsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F450970427174F6C0099B839 /* SchoolsTableViewController.swift */; };
+		F450970A27174F6C0099B839 /* NJSchoolsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F450970527174F6C0099B839 /* NJSchoolsModel.swift */; };
+		F450970B27174F6C0099B839 /* SchoolDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F450970627174F6C0099B839 /* SchoolDetailViewController.swift */; };
+		F450970C27174F6C0099B839 /* SchoolInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F450970727174F6C0099B839 /* SchoolInfoTableViewCell.swift */; };
+		F450970E271753A60099B839 /* MapPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F450970D271753A60099B839 /* MapPageViewController.swift */; };
+		F451B931271AF831001349BC /* SchoolAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F451B930271AF831001349BC /* SchoolAnnotation.swift */; };
+		F45B9333271DB73200F04E3C /* MUPointAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45B9332271DB73200F04E3C /* MUPointAnnotation.swift */; };
+		F45B9335271DB78300F04E3C /* AnnotationTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45B9334271DB78300F04E3C /* AnnotationTypes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +47,6 @@
 		F45096CF27174ECC0099B839 /* NJSchoolsMapFeature.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NJSchoolsMapFeature.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F45096D227174ECC0099B839 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F45096D427174ECC0099B839 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F45096D627174ECC0099B839 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F45096D927174ECC0099B839 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F45096DB27174ECD0099B839 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F45096DE27174ECD0099B839 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +56,15 @@
 		F45096EF27174ECE0099B839 /* NJSchoolsMapFeatureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NJSchoolsMapFeatureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F45096F327174ECE0099B839 /* NJSchoolsMapFeatureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NJSchoolsMapFeatureUITests.swift; sourceTree = "<group>"; };
 		F45096F527174ECE0099B839 /* NJSchoolsMapFeatureUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NJSchoolsMapFeatureUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F450970327174F6C0099B839 /* NJSchools.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = NJSchools.json; sourceTree = "<group>"; };
+		F450970427174F6C0099B839 /* SchoolsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchoolsTableViewController.swift; sourceTree = "<group>"; };
+		F450970527174F6C0099B839 /* NJSchoolsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NJSchoolsModel.swift; sourceTree = "<group>"; };
+		F450970627174F6C0099B839 /* SchoolDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchoolDetailViewController.swift; sourceTree = "<group>"; };
+		F450970727174F6C0099B839 /* SchoolInfoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchoolInfoTableViewCell.swift; sourceTree = "<group>"; };
+		F450970D271753A60099B839 /* MapPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPageViewController.swift; sourceTree = "<group>"; };
+		F451B930271AF831001349BC /* SchoolAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolAnnotation.swift; sourceTree = "<group>"; };
+		F45B9332271DB73200F04E3C /* MUPointAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUPointAnnotation.swift; sourceTree = "<group>"; };
+		F45B9334271DB78300F04E3C /* AnnotationTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationTypes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +115,17 @@
 		F45096D127174ECC0099B839 /* NJSchoolsMapFeature */ = {
 			isa = PBXGroup;
 			children = (
-				F45096D227174ECC0099B839 /* AppDelegate.swift */,
-				F45096D427174ECC0099B839 /* SceneDelegate.swift */,
-				F45096D627174ECC0099B839 /* ViewController.swift */,
+				F450970227174ED90099B839 /* AppFiles */,
 				F45096D827174ECC0099B839 /* Main.storyboard */,
+				F45B9332271DB73200F04E3C /* MUPointAnnotation.swift */,
+				F45B9334271DB78300F04E3C /* AnnotationTypes.swift */,
+				F450970D271753A60099B839 /* MapPageViewController.swift */,
+				F451B930271AF831001349BC /* SchoolAnnotation.swift */,
+				F450970327174F6C0099B839 /* NJSchools.json */,
+				F450970527174F6C0099B839 /* NJSchoolsModel.swift */,
+				F450970627174F6C0099B839 /* SchoolDetailViewController.swift */,
+				F450970727174F6C0099B839 /* SchoolInfoTableViewCell.swift */,
+				F450970427174F6C0099B839 /* SchoolsTableViewController.swift */,
 				F45096DB27174ECD0099B839 /* Assets.xcassets */,
 				F45096DD27174ECD0099B839 /* LaunchScreen.storyboard */,
 				F45096E027174ECD0099B839 /* Info.plist */,
@@ -125,6 +148,15 @@
 				F45096F527174ECE0099B839 /* NJSchoolsMapFeatureUITestsLaunchTests.swift */,
 			);
 			path = NJSchoolsMapFeatureUITests;
+			sourceTree = "<group>";
+		};
+		F450970227174ED90099B839 /* AppFiles */ = {
+			isa = PBXGroup;
+			children = (
+				F45096D227174ECC0099B839 /* AppDelegate.swift */,
+				F45096D427174ECC0099B839 /* SceneDelegate.swift */,
+			);
+			path = AppFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F45096DF27174ECD0099B839 /* LaunchScreen.storyboard in Resources */,
+				F450970827174F6C0099B839 /* NJSchools.json in Resources */,
 				F45096DC27174ECD0099B839 /* Assets.xcassets in Resources */,
 				F45096DA27174ECC0099B839 /* Main.storyboard in Resources */,
 			);
@@ -258,9 +291,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F45096D727174ECC0099B839 /* ViewController.swift in Sources */,
+				F450970927174F6C0099B839 /* SchoolsTableViewController.swift in Sources */,
+				F45B9333271DB73200F04E3C /* MUPointAnnotation.swift in Sources */,
 				F45096D327174ECC0099B839 /* AppDelegate.swift in Sources */,
 				F45096D527174ECC0099B839 /* SceneDelegate.swift in Sources */,
+				F450970B27174F6C0099B839 /* SchoolDetailViewController.swift in Sources */,
+				F451B931271AF831001349BC /* SchoolAnnotation.swift in Sources */,
+				F450970A27174F6C0099B839 /* NJSchoolsModel.swift in Sources */,
+				F450970E271753A60099B839 /* MapPageViewController.swift in Sources */,
+				F45B9335271DB78300F04E3C /* AnnotationTypes.swift in Sources */,
+				F450970C27174F6C0099B839 /* SchoolInfoTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
